@@ -44,7 +44,8 @@ function onTableChange(pagination: TablePaginationConfig) {
 </script>
 
 <template>
-  <div class="mb-4">
+  <!-- Search Input Container -->
+  <div class="mb-5">
     <a-input-search
       v-model:value="searchText"
       :placeholder="searchPlaceholder"
